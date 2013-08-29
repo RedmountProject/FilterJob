@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Sanspapier.com Property-->
+
+<configuration>
+
+<!-- file properties -->
+
+<property>
+  <name>instance.name</name>
+  <value>FilterJob</value>
+  <description>UUID</description>
+</property>
+
+<property>
+  <name>instance.agent.name</name>
+  <value>filter_0</value>
+  <description>Name of the Agent</description>
+</property>
+
+<!--
+<property>
+  <name>method</name>
+  <value>1</value>
+  <description>Method to use ( 0 : Segment, 1 : Sql )</description>
+</property>-->
+
+<property>
+  <name>db.commit.size</name>
+  <value>1000</value>
+  <description>Number time you want to split your data</description>
+</property>
+
+<property>
+  <name>mapred.map.tasks</name>
+  <value>4</value>
+  <description></description>
+</property>
+
+
+<property>
+  <name>mapred.reduce.tasks</name>
+  <value>1</value>
+  <description></description>
+</property>
+
+<property>
+  <name>max.input.split.size</name>
+  <value>0</value>
+  <description></description>
+</property>
+
+<property>
+  <name>input.path</name>
+  <value>/user/nutch/webpage/</value>
+  <description>Path to the index directory to filter ( ended with '/' )</description>
+</property>
+
+<property>
+  <name>filter.path</name>
+  <value>filterjob/nutch_books_to_process.txt</value>
+  <description>Path to the filter file</description>
+</property>
+
+<!-- Insert Database -->
+
+<property>
+  <name>insert.db.address</name>
+  <value>192.168.1.20</value>
+  <description>Database Url</description>
+</property>
+
+<property>
+  <name>insert.db.name</name>
+  <value>extract_content_test</value>
+  <description>Database Name</description>
+</property>
+
+<property>
+  <name>insert.db.table.name</name>
+  <value>book_content</value>
+  <description>Database Name</description>
+</property>
+
+<property>
+  <name>insert.db.port</name>
+  <value>3306</value>
+  <description>Database Port</description>
+</property>
+
+<property>
+  <name>insert.db.username</name>
+  <value>sp</value>
+  <description>Database UserName</description>
+</property>
+
+<property>
+  <name>insert.db.password</name>
+  <value>E33eur18_</value>
+  <description>Database Password</description>
+</property>
+
+<property>
+  <name>insert.db.character.encoding</name>
+  <value>utf8</value>
+  <description>Database character encoding</description>
+</property>
+
+</configuration>

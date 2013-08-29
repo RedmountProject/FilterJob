@@ -1,0 +1,32 @@
+libs.ApacheLogger.classpath=\
+    ${base}/commons-logging-1.1.1.jar:\
+    ${base}/commons-cli-1.2.jar:\
+    ${base}/commons-lang-2.4.jar:\
+    ${base}/commons-configuration-1.6.jar
+libs.ApacheLogger.displayName=ApacheCommons
+libs.BoilerPipe.classpath=\
+    ${base}/boilerpipe-1.2.0.jar:\
+    ${base}/nekohtml-1.9.13.jar:\
+    ${base}/xerces-2.9.1.jar
+libs.BoilerPipe.displayName=BoilerPipe
+libs.CopyLibs.classpath=\
+    ${base}/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar
+libs.CopyLibs.displayName=CopyLibs Task
+libs.Hadoop.classpath=\
+    ${base}/hadoop-core-1.0.3.jar:\
+    ${base}/core-3.1.1.jar:\
+    ${base}/native/
+libs.Hadoop.displayName=HadoopCore
+libs.jdbc.classpath=\
+    ${base}/mysql-connector-java-5.1.22-bin.jar
+libs.jdbc.displayName=jdbc
+libs.log4j.classpath=\
+    ${base}/commons-logging-api-1.0.4.jar:\
+    ${base}/log4j-1.2.17.jar
+libs.log4j.displayName=log4j
+libs.Nutch.classpath=\
+    ${base}/nutch-1.4.jar
+libs.Nutch.displayName=Nutch
+libs.Sqoop.classpath=\
+    ${base}/sqoop-1.4.3.jar
+libs.Sqoop.displayName=Sqoop
